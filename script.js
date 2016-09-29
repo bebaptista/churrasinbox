@@ -1,0 +1,21 @@
+function mostraDicas() {
+	var texto = document.getElementById("text-dicas");
+
+	// Changes the style to show the text
+	if (texto.style.display == "block") {
+		texto.style.display = "none";
+	} else {
+		texto.style.display = "block";
+	}
+}
+
+function mostraCombinações() {
+	var texto = document.getElementById("text-combinacoes");
+
+	// Changes the style to show the text
+	if (texto.style.display == "block") {
+		texto.style.display = "none";
+	} else {
+		texto.style.display = "block";
+	}
+}
