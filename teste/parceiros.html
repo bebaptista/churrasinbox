@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <link rel="icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <title>Churras InBox</title>
+  <!-- Aqui chamamos o nosso arquivo css externo -->
+  <link rel="stylesheet" type="text/css"  href="css/style.css" />
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="img/caixa.png" class="logo">
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="file:///C:/xampp/htdocs/teste/index.html">Home</a>
+        </li>
+        <li>
+          <a href="file:///C:/xampp/htdocs/teste/quem-somos.html">Quem Somos</a>
+        </li>
+        <li>
+          <a href="file:///C:/xampp/htdocs/teste/planos.html">Planos</a>
+        </li>
+        <li>
+          <a href="#">Parceiros</a>
+        </li>
+        <li>
+          <a href="file:///C:/xampp/htdocs/teste/dicas.html">Dicas</a>
+        </li>
+        <li>
+          <a href="file:///C:/xampp/htdocs/teste/receitas.html">Receitas</a>
+        </li>
+        <li>
+          <a href="file:///C:/xampp/htdocs/teste/contato.html">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="balao">
+    <p>Parceiros</p>
+  </div>
+  <img id="box-text" src="img/parceiros.png">
+  <div class="parceiros">
+    <a href="#">
+      <img src="img/sadia.png"></a>
+    <a href="#">
+      <img src="img/buzzi.png"></a>
+    <a href="#">
+      <img src="img/friboi.png"></a>
+    <a href="#">
+      <img src="img/tramontina.png"></a>
+    <a href="#">
+      <img src="img/hemmer.png"></a>
+  </div>
+  <div class="parceiros2">
+    <a href="#">
+      <img src="img/heinz.png"></a>
+    <a href="#">
+      <img src="img/porcao.png"></a>
+    <a href="#">
+      <img src="img/baden.png"></a>
+    <a href="#">
+      <img src="img/maturatta.png"></a>
+    <a href="#">
+      <img src="img/stella.png"></a>
+  </div>
+  <div class="parceiros3">
+    <a href="#">
+      <img src="img/ed.png"></a>
+    <a href="#">
+      <img src="img/applebees.png"></a>
+    <a href="#">
+      <img src="img/outback.png"></a>
+    <a href="#">
+      <img src="img/supremo.png"></a>
+    <a href="#">
+      <img src="img/perdigao.png"></a>
+    </div>
+    <BR>
+    <BR>
+    <form method="POST" action="javascript:GravaRegistro();">
+      <h2>SEJA UM PARCEIRO</h2>
+      <input id="input1" type="text" name="responsavel" required="required" placeholder="Nome do Responsável" value="">
+      <input id="input2" type="text" name="nome" required="required" placeholder="Nome da Empresa/Estabelecimento" value="">
+      <input id="input3" type="text" name="cnpj" required="required" placeholder="CNPJ" value="">
+      <input id="input4" type="text" name="tel" required="required" placeholder="Telefone" value="">
+      <input id="input5" type="email" name="email"  placeholder="E-mail" value="">
+      <!--<textarea id="input6" name="id" placeholder="Digite aqui sua mensagem" value=""></textarea>-->
+      <input type="submit" id="boton" onclick="history.go(0);Mensagem();" value="Enviar" />
+    </form>
+  </body>
+  <footer>
+    <center>
+      <p>Copyright © 2016 Churras In Box. All rights reserved.</p>
+    </center>
+  </footer>
+</html>
