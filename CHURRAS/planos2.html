@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <link rel="icon" href="img/favicon.ico">
+  <meta charset="UTF-8">
+  <title>Churras InBox</title>
+  <!-- Aqui chamamos o nosso arquivo css externo -->
+  <link rel="stylesheet" type="text/css"  href="css/style.css" />
+  <script type="text/javascript" src="js/planos.js"></script>
+</head>
+<body>
+  <header>
+    <img src="img/caixa.png" class="logo">
+    <nav id="menu">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="quem-somos.html">Quem Somos</a>
+        </li>
+        <li>
+          <a href="#">Planos</a>
+        </li>
+        <li>
+          <a href="parceiros.html">Parceiros</a>
+        </li>
+        <li>
+          <a href="dicas.html">Dicas</a>
+        </li>
+        <li>
+          <a href="receitas.html">Receitas</a>
+        </li>
+        <li>
+          <a href="ultimas-caixas.html">Caixas</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+<body>
+
+  <div id="balao">
+    <p>Planos</p>
+  </div>
+  
+  <img id="box-text" src="img/planos.png">
+
+  <img onclick="GravaAssinatura();" class="balao1" src="img/balao1.png">
+  
+  <img class="balao2" src="img/balao.png">
+      
+	<div class="row">
+		<div class="col-md-6">
+			<h2>Compra unica</h2>
+			<form>
+      		<input id="nome" type="text" name="nome" placeholder="Nome">
+      		<input id="email" type="email" name="email" placeholder="E-mail">
+      		
+      		<input id="cep" type="text" placeholder="CEP"><button onclick="consultaCEP();">Consulta CEP</button>
+      		<input id="endereco" type="text" name="endereco" placeholder="Endereço">
+      		<input id="numero" type="number" name="numero" placeholder="Nº">
+      		<input id="bairro" type="text" name="bairro" placeholder="Bairro">
+      		<input id="cidade" type="text" name="cidade" placeholder="Cidade">
+      		<input id="estado" type="text" name="estado" placeholder="Estado">
+      		
+      		<input id="numero_cartao" type="number" name="numero_cartao" placeholder="Nº do Cartão">
+      		<input id="vencimento" type="date" name="vencimento" placeholder="Validade">
+      		<input id="codigo_seguranca" type="number" name="codigo_seguranca" placeholder="Código">
+      
+      		<input type="button" onclick="GravaCompraUnica();" value="Comprar" id="boton">
+      		</form>
+		</div>
+		
+		<div class="col-md-6">
+			<h2>Assinatura</h2>
+			<form>
+      		<input id="nome" type="text" name="nome" placeholder="Nome">
+      		<input id="email" type="email" name="email" placeholder="E-mail">
+      		
+      		<input id="cep" type="text" placeholder="CEP"><button onclick="consultaCEP();">Consulta CEP</button>
+      		<input id="endereco" type="text" name="endereco" placeholder="Endereço">
+      		<input id="numero" type="number" name="numero" placeholder="Nº">
+      		<input id="bairro" type="text" name="bairro" placeholder="Bairro">
+      		<input id="cidade" type="text" name="cidade" placeholder="Cidade">
+      		<input id="estado" type="text" name="estado" placeholder="Estado">
+      		
+      		<input id="numero_cartao" type="number" name="numero_cartao" placeholder="Nº do Cartão">
+      		<input id="vencimento" type="date" name="vencimento" placeholder="Validade">
+      		<input id="codigo_seguranca" type="number" name="codigo_seguranca" placeholder="Código">
+      
+      		<input type="button" onclick="GravaAssinatura();" value="Assinar" id="boton">
+      		</form>
+		</div>
+	</div>
+
+  <footer>
+    <center>
+      <p>Copyright © 2016 Churras In Box. All rights reserved.</p>
+    </center>
+  </footer>
+</html>
